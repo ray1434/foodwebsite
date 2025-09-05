@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up - Foodies Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+  <div class="login-box">
+    <h2>🍴 Foodies Hub</h2>
+    <p class="subtitle">Create your account</p>
+    <form onsubmit="return signupUser(event)">
+      <div class="input-group">
+        <input type="text" id="signup-username" placeholder="Username" required>
+      </div>
+      <div class="input-group">
+        <input type="email" id="signup-email" placeholder="Email" required>
+      </div>
+      <div class="input-group">
+        <input type="password" id="signup-password" placeholder="Password" required>
+      </div>
+      <div class="input-group">
+        <input type="password" id="signup-confirm" placeholder="Confirm Password" required>
+      </div>
+      <button type="submit" class="btn-login">Sign Up</button>
+      <p id="signup-error" class="error"></p>
+    </form>
+
+    <!-- Back to Login -->
+    <p class="signup-text">Already have an account?</p>
+    <a href="login.html" class="btn-signup">Back to Login</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

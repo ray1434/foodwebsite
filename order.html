@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order - Foodies Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">🍴 <span>Foodies</span> Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="order.html" class="active">Order</a></li>
+        <li id="loginLink"><a href="login.html">Login</a></li>
+        <li id="logoutLink" style="display:none;"><a href="#" onclick="logout()">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Order Section -->
+  <section class="order-page">
+    <h2>Place Your Order</h2>
+    <p>Fill in the details below to get your favorite food delivered 🍕🍔🍜🥗</p>
+
+    <div class="order-form">
+      <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <textarea placeholder="Delivery Address" rows="3" required></textarea>
+
+        <select required>
+          <option value="">-- Select Food Item --</option>
+          <option>Pizza - $12</option>
+          <option>Burger - $10</option>
+          <option>Noodles - $8</option>
+          <option>Salad - $7</option>
+          <option>Steak - $20</option>
+          <option>Dessert - $6</option>
+        </select>
+
+        <select required>
+          <option value="">-- Payment Method --</option>
+          <option>Cash on Delivery</option>
+          <option>Credit/Debit Card</option>
+          <option>GCash</option>
+          <option>PayPal</option>
+        </select>
+
+        <button type="submit" class="btn-order">Confirm Order</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

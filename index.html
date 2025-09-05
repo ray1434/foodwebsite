@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Foodies Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">🍴 <span>Foodies</span> Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li id="loginLink"><a href="login.html">Login</a></li>
+        <li id="logoutLink" style="display:none;"><a href="#" onclick="logout()">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Fresh • Tasty • Fast</h2>
+      <p>Discover the best meals in town, cooked with love and delivered to your door.</p>
+      <a href="order.html" class="btn">Order Now</a>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <h3>✨ Our Special Menu ✨</h3>
+    <div class="food-items">
+      <div class="card">
+        <img src="images/pasta.png" alt="Pizza">
+        <h4>Pasta</h4>
+        <p>Cheesy and delicious with fresh toppings.</p>
+      </div>
+      <div class="card">
+        <img src="images/Burger.jpg" alt="Burger">
+        <h4>Burger</h4>
+        <p>Juicy grilled burger with crispy fries.</p>
+      </div>
+      <div class="card">
+        <img src="images/Ramen.jpg" alt="Noodles">
+        <h4>Noodles</h4>
+        <p>Hot & spicy noodles with veggies.</p>
+      </div>
+      <div class="card">
+        <img src="images/Vege.jpg" alt="Salad">
+        <h4>Salad</h4>
+        <p>Fresh & healthy garden salad.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+ <footer>
+  <p>© 2025 Foodies Hub | All Rights Reserved</p>
+  <div class="socials">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

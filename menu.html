@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu - Foodies Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">🍴 <span>Foodies</span> Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li id="loginLink"><a href="login.html">Login</a></li>
+        <li id="logoutLink" style="display:none;"><a href="#" onclick="logout()">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Menu Section -->
+  <section class="menu-page">
+    <h2>Our Delicious Menu</h2>
+    <p>Choose from our wide variety of freshly made dishes 🍕🍔🍜🥗</p>
+
+    <div class="menu-grid">
+      <div class="menu-card">
+        <img src="images/pizza.jpg" alt="Pizza">
+        <h3>Pizza</h3>
+        <p>Cheesy, hot, and full of flavor.</p>
+        <span>$12</span>
+      </div>
+
+      <div class="menu-card">
+        <img src="images/burger.jpg" alt="Burger">
+        <h3>Burger</h3>
+        <p>Juicy grilled patty with crispy fries.</p>
+        <span>$10</span>
+      </div>
+
+      <div class="menu-card">
+        <img src="images/noodles.jpg" alt="Noodles">
+        <h3>Noodles</h3>
+        <p>Hot & spicy noodles with veggies.</p>
+        <span>$8</span>
+      </div>
+
+      <div class="menu-card">
+        <img src="images/salad.jpg" alt="Salad">
+        <h3>Salad</h3>
+        <p>Fresh greens for a healthy choice.</p>
+        <span>$7</span>
+      </div>
+
+      <div class="menu-card">
+        <img src="images/steak.jpg" alt="Steak">
+        <h3>Steak</h3>
+        <p>Grilled to perfection with seasoning.</p>
+        <span>$20</span>
+      </div>
+
+      <div class="menu-card">
+        <img src="images/dessert.jpg" alt="Dessert">
+        <h3>Dessert</h3>
+        <p>Sweet treats to end your meal.</p>
+        <span>$6</span>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
